@@ -1,0 +1,29 @@
+.galeria {
+    padding: 170px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 30px;
+}
+
+.galeria__item {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .galeria {
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .galeria {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .galeria {
+        padding: 230px 30px 30px 30px;
+        grid-template-columns: repeat(1, auto);
+    }
+}
