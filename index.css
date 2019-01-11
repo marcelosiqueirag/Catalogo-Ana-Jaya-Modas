@@ -19,6 +19,8 @@
     justify-content: center;
 }
 
+
+
 .header__logo-container img {
     height: 40px;
 }
@@ -60,6 +62,7 @@
     overflow: hidden;
     background-color:#261106;
     transition: max-height 0.5s linear;
+    
 }
 
 .dropdown__content ul {
@@ -94,5 +97,13 @@
   
     .menu__dropdown {
       width: auto;
+    }
+
+    .header__menu-lateral{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    
     }
 }
